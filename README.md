@@ -55,7 +55,7 @@ Whether you’re managing dozens of logins or just want peace of mind online, ou
    ```
 ### or
 
-- Just run the "A-PassGenerator.exe" in EXE folder
+- Just run the "A-PassGenerator.exe" in EXE folder.
 **Note-:** Don't move the .exe file (Create a shortcut if you want). 
    
 ## Cryptography Overview
