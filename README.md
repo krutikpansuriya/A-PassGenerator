@@ -1,6 +1,6 @@
 # A-PassGenerator
 
-![Application Screenshot](assets/screenshots/main-ui.png)
+![Application Screenshot](/screenshots/main-ui.png)
 
 In a world where cyber threats are rising and password fatigue is real, our Password Generator Tool offers a smart solution for both everyday users and security-conscious professionals. Instead of remembering or storing passwords, users generate strong, unique passwords on demand using simple inputs like app name, user ID, and a personal digit—all secured by a locally encrypted master password.
 
