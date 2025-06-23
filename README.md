@@ -2,11 +2,36 @@
 
 ![Application Screenshot](/screenshots/main-ui.png)
 
-In a world where cyber threats are rising and password fatigue is real, our Password Generator Tool offers a smart solution for both everyday users and security-conscious professionals. Instead of remembering or storing passwords, users generate strong, unique passwords on demand using simple inputs like app name, user ID, and a personal digit—all secured by a locally encrypted master password.
+In a world where cyber threats are rising and password fatigue is real, our Password Generator Tool offers a smart solution for both everyday users and security-conscious professionals. Instead of remembering or storing passwords, users generate strong, unique passwords on demand using simple inputs like app name, user ID, or any identifier — all secured by a locally encrypted master password.
 
-The tool uses deterministic logic, meaning the same input always creates the same password—without ever storing or syncing sensitive data. With built-in password rules (uppercase, lowercase, digits, symbols), clipboard integration, and an optional encryption/decryption utility, it provides top-tier security with zero storage risk.
+The tool uses deterministic logic, meaning the same input always creates the same password—without ever storing or syncing sensitive data. With built-in password rules (uppercase, lowercase, digits, symbols), clipboard integration, and an optional encryption/decryption utility for text/2FA codes, it provides top-tier security with zero storage risk.
 
 Whether you’re managing dozens of logins or just want peace of mind online, our tool delivers simplicity without compromise—keeping your digital life safe, private, and stress-free.
+
+## Installation
+
+1. Install Python
+2. Clone the repository 
+   ```bash
+   git clone https://github.com/krutikpansuriya/A-PassGenerator.git
+   ```
+3. Install dependencies:
+   ```bash
+   pip install -r requirements.txt
+   ```
+4. Run the application:
+   ```bash
+   python PassGenerator.py
+   ```
+   
+### or
+
+1. Clone the repository 
+   ```bash
+   git clone https://github.com/krutikpansuriya/A-PassGenerator.git
+   ```
+2. Just run the "A-PassGenerator.exe" in EXE folder
+- **Note-:** Don't move the .exe file (Create a shortcut if you want). 
 
 ## Usage
 
@@ -41,32 +66,7 @@ Whether you’re managing dozens of logins or just want peace of mind online, ou
 - **Password Generation**: HMAC-SHA256 with master key
 - **Memory Protection**: SecureString class wipes sensitive data
 - **PIN Protection**: Minimum 6 characters, exit on wrong attempt
-
-## Installation
-
-1. Install Python
-2. Clone the repository 
-   ```bash
-   git clone https://github.com/krutikpansuriya/A-PassGenerator.git
-   ```
-3. Install dependencies:
-   ```bash
-   pip install -r requirements.txt
-   ```
-4. Run the application:
-   ```bash
-   python PassGenerator.py
-   ```
-   
-### or
-
-1. Clone the repository 
-   ```bash
-   git clone https://github.com/krutikpansuriya/A-PassGenerator.git
-   ```
-2. Just run the "A-PassGenerator.exe" in EXE folder
-- **Note-:** Don't move the .exe file (Create a shortcut if you want).
-   
+ 
 ## Cryptography Overview
 
 ### Core Cryptographic Techniques
