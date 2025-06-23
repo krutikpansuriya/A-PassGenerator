@@ -44,19 +44,28 @@ Whether you’re managing dozens of logins or just want peace of mind online, ou
 
 ## Installation
 
-1. Install Python 3.8+
-2. Install dependencies:
+1. Install Python
+2. Clone the repository 
+   ```bash
+   git clone https://github.com/krutikpansuriya/A-PassGenerator.git
+   ```
+3. Install dependencies:
    ```bash
    pip install -r requirements.txt
    ```
-3. Run the application:
+4. Run the application:
    ```bash
    python PassGenerator.py
    ```
+   
 ### or
 
-- Just run the "A-PassGenerator.exe" in EXE folder.
-**Note-:** Don't move the .exe file (Create a shortcut if you want). 
+1. Clone the repository 
+   ```bash
+   git clone https://github.com/krutikpansuriya/A-PassGenerator.git
+   ```
+2. Just run the "A-PassGenerator.exe" in EXE folder
+- **Note-:** Don't move the .exe file (Create a shortcut if you want).
    
 ## Cryptography Overview
 
